@@ -16,7 +16,7 @@
  - Client-Side 렌더링은 브라우저 렌더링 후 데이터를 가져오기 위한 로직이 수행되어야 해서 더 느릴 수 밖에 없다. 첫 렌더링 후엔 Client-Side 렌더링을 택하면 된다.
 
 ❗ 기존 SSR의 문제점
--> Server-Side와 Client-Side에서 각각 렌더링을 위한 코드를 따로 만들어야 했다.
+ - Server-Side와 Client-Side에서 각각 렌더링을 위한 코드를 따로 만들어야 했다.
 
 이를 해결하기 위해 Isomorphic(Universal)이라는 방식이 등장했다.
 
